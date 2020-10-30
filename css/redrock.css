@@ -1,0 +1,361 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/* 导航条部分 */
+.navbar{
+    width: 100%;
+    height: 70px;
+    background-color: #584cc0;
+    position: fixed;
+    min-width: 1500px;
+    margin-top: -30px;
+    z-index: 100;
+}
+.icon-red{
+    width: 44px;
+    height: 39px;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 178px;
+}
+.nav-word{
+    width: 756px;
+    height: auto;
+    color: white;
+    font-size: 17px;
+    display: flex;
+    margin-left: 330px;
+    margin-top: 23px;
+}
+section span{
+    flex: 1;
+}
+.search-box{
+    position: relative;
+}
+.nav-search{
+    height: 38px;
+    width: 168px;
+    border-radius: 15px;
+    border: none;
+    position: absolute;
+    margin-left: 70%;
+    margin-top: -30px;
+}
+.icon-search{
+    position: absolute;
+    margin-left: 77.5%;
+    margin-top: -33px;
+}
+
+/* 产品分析部分 */
+.product{
+    padding-left: 200px;
+    width: 100%;
+    min-width: 1200px;
+    margin-top: 30px;
+    background-color: #fafbfc;
+}
+.product-word{
+    padding-top: 85px;
+    color: #2e24b2;
+    font-size: 17px;
+    background-color: #fafbfc;
+}
+.white-box{
+    background-color: #fff;
+    height: 370px;
+    width: 1100px;
+    margin-top: 50px;
+}
+.product-word2{
+    width: 100%;
+    height: 60px;
+    padding-top: 25px;
+    font-size: 17px;
+    text-align: center;
+}
+.product-word2 span{
+    margin-right:50px;
+    margin-left: 50px;
+}
+.orange-wine{
+    width: 70px;
+    border-bottom: solid 2px #ff9653;
+    margin: 10px 0 0 515px;
+}
+.product-nav{
+    list-style: none;
+    width: 130px;
+    height: 250px;
+    margin: 10px;
+    text-align: center;
+    font-size: 17px;
+}
+.product-nav li{
+    margin: 10px;
+    height: 40px;
+    width: 130px;
+    line-height: 40px;
+    text-align: center;
+}
+.product-lap{
+    color: white;
+    background-color: #9991f8;
+    height: 40px;
+    width: 130px;
+    line-height: 40px;
+    text-align: center;
+}
+.course-inquire{
+    display:inline-block;
+    height: 240px;
+    width: 230px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 230px;
+}
+.class-excel{
+    width: 205px;
+    height: 135px;
+}
+.course-word{
+    margin-top: 20px;
+}
+.course-word2{
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+.classroom-inquire{
+    display:inline-block;
+    height: 240px;
+    width: 230px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 480px;
+}
+.class-excel2{
+    width: 205px;
+    height: 135px;
+}
+.classroom-word1{
+    margin-top: 20px;
+}
+.classroom-word2{
+    margin-top: 10px;
+    font-size: 13px;
+    margin-right: 15px;
+    line-height: 1.5em;
+}
+.none-course{
+    display:inline-block;
+    height: 240px;
+    width: 230px;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 730px;
+}
+.class-excel3{
+    width: 245px;
+    height: 140px;
+}
+.none-word1{
+    margin-top: 13px;
+}
+.none-word2{
+    margin-top: 10px;
+    font-size: 13px;
+    margin-right: 15px;
+    line-height: 1.5em;
+}
+.purple-wine{
+    position: absolute;
+    display: inline;
+    margin-left: 1040px;
+    margin-top: -300px;
+}
+/* 产品详情 */
+.product2{
+    width: 100%;
+    min-width: 1150px;
+    padding-left: 200px;
+    background-color: #fafbfc;
+}
+.product-detail{
+    padding-top: 85px;
+    color: #2e24b2;
+    font-size: 17px;
+    background-color: #fafbfc;
+}
+.detail-box{
+    height: 580px;
+    width: 1100px;
+    margin-top: 50px;
+    
+}
+.three-box{
+    display: flex;
+    width: 1100px;
+    height: 580px;
+    margin: 0 auto;
+}
+.detail-title{
+    height: 75px;
+    width: 330px;
+    padding-top: 25px;
+    font-size: 17px;
+    text-align: center;
+}
+.detail-title span{
+    margin-right:30px;
+   
+}
+.orange-wine2{
+    width: 70px;
+    border-bottom: solid 2px #ff9653;
+    margin: 10px 0 10px 10px;
+}
+/* .helpme{ */
+    /* width: 325px; */
+    /* height: 485px; */
+/* } */
+.icon-helpme{
+    height: 255px;
+    width: 325px;
+}
+.div .helpme{
+    flex: 1;
+   justify-content: center;
+}
+.helpme-word1{
+    margin: 20px 0 10px 20px;
+}
+.helpme-word2{
+    margin: 10px 10px 10px 20px;
+    padding-right: 40px;
+    line-height: 1.5em;
+    font-size: 13px;
+}
+.purple-button1{
+    width: 130px;
+    height: 40px;
+    background-color: #9991f8;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.orange-button{
+    width: 130px;
+    height: 40px;
+    background-color: #ff9653;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.frame{
+
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
+
+
+/* 用户体验区 */
+.customer{
+    padding-left: 200px;
+    width: 100%;
+    min-width: 1200px;
+    /* margin-top: 30px; */
+    background-color: #fafbfc;
+}
+.customer-title{
+    padding-top: 85px;
+    color: #2e24b2;
+    font-size: 17px;
+    background-color: #fafbfc;
+}
+.white-box2{
+    background-color: #fff;
+    height: 370px;
+    width: 1100px;
+    margin-top: 50px;
+}
+.icon-rooter{
+    padding: 10px;
+}
+.left-box{
+    width: 400px;
+    height: 360px;;
+}
+.customer-word1{
+    margin: 10px;
+}
+.customer-word2{
+    margin: 10px;
+    line-height: 1.5em;
+    font-size: 13px;
+}
+.right-box{
+    position: relative;
+    width: 590px;
+    height: 360px;
+    top:-330px;
+    left: 460px;
+}
+.problem-word1{
+    position: absolute;
+    margin: 10px 0 0 20px;
+}
+.review1{
+    color: #999;
+    font-size: 13px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 15px;
+}
+.redrock-word1{
+    position: absolute;
+    width: 440px;
+    height: 60px;
+    font-size: 13px;
+    line-height: 1.5em;
+    margin:40px 0 0 20px ;
+}
+.second-box{
+    width: 590px;
+    height: 110px;
+    padding-top: 50px;
+}
+.third-box{
+    width: 590px;
+    height: 110px;
+    padding-top: 20px;
+}
+
+/* 尾部 */
+.purple-box{
+    width: 100%;
+    height: 150px;
+    background-color: #4f40be;
+    margin-top: 200px;
+    position: absolute;
+}
+.purple-box img{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+
+
+
+
+
